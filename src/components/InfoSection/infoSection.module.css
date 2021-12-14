@@ -1,0 +1,51 @@
+.container{
+    margin: 100px 0;
+}
+
+.info {
+    width: 100%;
+    margin: 80px 0;
+    padding:0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    width: 60%;
+    margin: 80px 0;
+}
+
+.description h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.description p{
+    font-size: 1.6rem;
+}
+
+
+.info_img{
+    background-image: url('../../images/logo-info.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 30%;
+}
+
+@media screen and (max-width:768px) {
+    .info_img{display: none;}
+
+    .description{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .description p{
+        text-align: justify;
+    }
+}
