@@ -14,11 +14,6 @@ const Contato = () => {
     mensagem: "",
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(dadas);
-  };
-
   return (
     <div id="contato">
       <ChamadaParalax img={backgroundContato} title="Contato" />

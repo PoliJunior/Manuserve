@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 0 2%;
+  width: 100%;
+  background-color: #e5e0e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contato {
+  width: 30%;
+}
+
+.contato h2{
+    color: #032340;
+    font-weight: normal;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.contato p{
+    margin-top: 2px;
+}
+
+.logo {
+  width: 23%;
+}
+
+.mapWrapper {
+  width: 25%;
+  height: 150px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}

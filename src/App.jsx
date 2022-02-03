@@ -1,6 +1,7 @@
 import "./App.css";
 import Acessorios from "./components/Acessorios/Acessorios";
 import Contato from "./components/Contato/Contato";
+import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import InfoSection from "./components/InfoSection/InfoSection";
 import NavBar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
       <Servicos />
       <Sobre />
       <Contato />
+      <Footer />
     </div>
   );
 }
