@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./styles.css";
 import logo from "../../images/logo.png";
 import { HiMenuAlt1 } from "react-icons/hi";
+import {MdClose} from 'react-icons/md'
 
 const NavBar = () => {
   const [isToggled, setIsToggled] = useState(false);
@@ -24,7 +25,7 @@ const NavBar = () => {
   return (
     <>
       <div className="container" ref={menuRef}>
-        <img src={logo} alt="MANUSERVE" className="logo" />
+        {!isToggled && <img src={logo} alt="MANUSERVE" className="logo" />}
 
         <nav className="nav">
           <ul>
@@ -45,7 +46,9 @@ const NavBar = () => {
 
         <nav className="nav-mobile">
           <div className="btn-mobile" onClick={toggleHandler}>
-            <HiMenuAlt1 />
+            {!isToggled ? (
+              <HiMenuAlt1 />
+            ) : (<MdClose/>)}
           </div>
           <ul style={{ display: isToggled ? "block" : "none" }}>
             <img src={logo} alt="MANUSERVE" className="logo-navbar" />

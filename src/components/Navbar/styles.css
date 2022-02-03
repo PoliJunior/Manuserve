@@ -40,7 +40,7 @@ nav li a:hover{
     transition: .3s;
 }
 .btn-mobile:hover{
-    font-size: 33px;
+    transform: scale(1.1);
     color:#0C2A9F;
     opacity: 80%;
 }

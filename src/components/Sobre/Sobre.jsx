@@ -8,12 +8,18 @@ const Sobre = () => {
     <div id="sobre">
       <ChamadaParalax img={backgroundSobre} title="Sobre Nós" />
       <div className={style.content}>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-          ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi
-          fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis
-          laoreet vel sit amet turpis.
-        </h3>
+        <p>
+          A manuserv, focada exclusivamente no produto portas automáticas
+          sociais, proporciona segurança e tranquilidade porque possui técnicos
+          formados e treinados na fábrica da marca, munidos de instrumentos,
+          ferramentas e materiais exclusivos, de fabricação própria, conferindo
+          diagnóstico preciso, aos nossos diversos produtos e serviços.
+          Grandiosas empresas de negócios e destaque expressivos de mercado,
+          como shoppings center, aeroportos, hospitais, construtoras, hotéis e
+          resorts vem depositando grande confiança na nossa marca como também na
+          assistência permanente oferecidas em todas as fases das nossas
+          relações.
+        </p>
       </div>
     </div>
   );

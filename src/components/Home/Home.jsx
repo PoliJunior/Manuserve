@@ -8,12 +8,17 @@ const Home = () => {
       <div className={styles.banner}>
         <div className={styles.filter}></div>
         <div className={styles.content}>
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{delay:1000, duration:1500}}>
-            {props => (
+          <Spring
+            from={{ opacity: 0 }}
+            to={{ opacity: 1 }}
+            config={{ delay: 1000, duration: 1500 }}
+          >
+            {(props) => (
               <animated.div style={props}>
                 <h1>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-                  ultrices quam. Sed id vestibulum risus
+                  Manuserv, comercio, manutenção e serviços de portas
+                  automáticas sociais, sofisticação aliada a tecnologia de alta
+                  performance e eficiência energéticas
                 </h1>
               </animated.div>
             )}
