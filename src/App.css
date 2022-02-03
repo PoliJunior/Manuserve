@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 4em;
+}

@@ -5,9 +5,9 @@ import style from "./Servicos.module.css";
 
 const Servicos = () => {
   return (
-    <>
+    <div id="servicos">
       <ChamadaParalax img={backgroundServico} title="Serviços" />
-      <div className={style.content}>
+      <div className={style.content} >
         <h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
           ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi
@@ -16,7 +16,7 @@ const Servicos = () => {
         </h3>
         <button className={style.btn}>Entrar em contato</button>
       </div>
-    </>
+    </div>
   );
 };
 

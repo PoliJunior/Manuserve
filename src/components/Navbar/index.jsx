@@ -29,16 +29,16 @@ const NavBar = () => {
         <nav className="nav">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/">Serviços</a>
+              <a href="#servicos">Serviços</a>
             </li>
             <li>
-              <a href="/">Sobre Nós</a>
+              <a href="#sobre">Sobre Nós</a>
             </li>
             <li>
-              <a href="/">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
@@ -50,16 +50,16 @@ const NavBar = () => {
           <ul style={{ display: isToggled ? "block" : "none" }}>
             <img src={logo} alt="MANUSERVE" className="logo-navbar" />
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/">Serviços</a>
+              <a href="#servicos">Serviços</a>
             </li>
             <li>
-              <a href="/">Sobre Nós</a>
+              <a href="#sobre">Sobre Nós</a>
             </li>
             <li>
-              <a href="/">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>

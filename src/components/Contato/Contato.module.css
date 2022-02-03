@@ -1,4 +1,40 @@
 .contato{
-    margin: 40px auto;
+    margin: 60px auto;
+    text-align: center;
     max-width: 600px;
 }
+
+.input{
+    margin: 20px 0;
+}
+
+.input input, .input select{
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    padding: 8px;
+    border:1px solid #000000;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input textarea{
+    width: 340px;
+    resize: none;
+    padding: 8px;
+    border:1px solid #000000;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    width: 100px;
+    padding: 12px 0;
+    color: #ffffff;
+    background-color: #021E42;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+

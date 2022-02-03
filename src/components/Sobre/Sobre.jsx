@@ -5,7 +5,7 @@ import style from "./Sobre.module.css";
 
 const Sobre = () => {
   return (
-    <>
+    <div id="sobre">
       <ChamadaParalax img={backgroundSobre} title="Sobre Nós" />
       <div className={style.content}>
         <h3>
@@ -15,7 +15,7 @@ const Sobre = () => {
           laoreet vel sit amet turpis.
         </h3>
       </div>
-    </>
+    </div>
   );
 };
 
