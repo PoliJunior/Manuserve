@@ -39,3 +39,11 @@
     -o-opacity:50%;
     -ms-opacity:50%;
 }
+
+@media screen and (max-width:570px) {
+    .banner h1{
+        width: 100%;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+}

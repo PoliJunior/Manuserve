@@ -13,15 +13,15 @@
   width: 30%;
 }
 
-.contato h2{
-    color: #032340;
-    font-weight: normal;
-    font-size: 1.6rem;
-    margin-bottom: 10px;
+.contato h2 {
+  color: #032340;
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
 }
 
-.contato p{
-    margin-top: 2px;
+.contato p {
+  margin-top: 2px;
 }
 
 .logo {
@@ -31,10 +31,53 @@
 .mapWrapper {
   width: 25%;
   height: 150px;
+  padding: 10px 0;
 }
 
 .map {
   width: 100%;
   height: 100%;
-  background-color: red;
+}
+
+@media screen and (max-width: 970px) {
+  .contato {
+    width: 25%;
+  }
+  .contato p {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .contato {
+    width: 20%;
+  }
+  .contato p {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 570px){
+    .contato, .logo, .mapWrapper{
+        width:100%;
+        text-align: center;
+    }
+
+    .mapWrapper{
+        display: none;
+    }
+    .container{
+        padding:10px 2%;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
 }
