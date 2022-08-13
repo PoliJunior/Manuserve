@@ -2,6 +2,7 @@ import React from "react";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
 import backgroundSobre from "../../images/banner-produtos.png";
 import style from "./Sobre.module.css";
+import CarroselVideos from "../CarrosselVideos/CarroselVideos";
 
 const Sobre = () => {
   return (
@@ -20,6 +21,8 @@ const Sobre = () => {
           assistência permanente oferecidas em todas as fases das nossas
           relações.
         </p>
+        <br />
+        <CarroselVideos />
       </div>
     </div>
   );
