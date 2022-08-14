@@ -5,6 +5,14 @@ import backgroundContato from "../../images/banner-produtos.png";
 import ReactInputMask from "react-input-mask";
 
 const Contato = () => {
+  const [checked,setChecked] = useState(true)
+
+  const confirmation = checked ? '' : 'confirmada';
+
+  function checkedClick(){
+    setChecked(!checked)
+  }
+
   const [dadas, setDadas] = useState({
     tipoContato: "",
     nome: "",
@@ -12,6 +20,7 @@ const Contato = () => {
     telefone: "",
     estado: "",
     mensagem: "",
+    reuniao_meet: "confirmada",
   });
 
   return (
@@ -20,12 +29,14 @@ const Contato = () => {
       <div className={style.contato}>
         <form
           // onSubmit={handleSubmit}
+          // https://formsubmit.co/henriqueteste802011@gmail.com
+          // https://formsubmit.co/el/liruca
           action="https://formsubmit.co/henriqueteste802011@gmail.com"
           method="POST"
         >
           <div className={style.input}>
             <select
-              name="tipo-contato"
+              name="Tipo-contato"
               id="tipo-contato"
               required
               value={dadas.tipoContato}
@@ -46,7 +57,7 @@ const Contato = () => {
           <div className={style.input}>
             <input
               type="text"
-              name="nome"
+              name="Nome"
               required
               placeholder="Nome"
               value={dadas.nome}
@@ -57,7 +68,7 @@ const Contato = () => {
           <div className={style.input}>
             <input
               type="email"
-              name="email"
+              name="Email"
               required
               placeholder="Email"
               value={dadas.email}
@@ -69,7 +80,7 @@ const Contato = () => {
             <ReactInputMask
               mask="(99)99999-9999"
               required
-              name="telefone"
+              name="Telefone"
               placeholder="Telefone para contato"
               value={dadas.telefone}
               onChange={(e) => setDadas({ ...dadas, telefone: e.target.value })}
@@ -79,7 +90,7 @@ const Contato = () => {
           <div className={style.input}>
             <input
               type="text"
-              name="estado"
+              name="Estado"
               required
               placeholder="Estado"
               value={dadas.estado}
@@ -89,7 +100,7 @@ const Contato = () => {
 
           <div className={style.input}>
             <textarea
-              name="mensagem"
+              name="Mensagem"
               cols="30"
               rows="4"
               placeholder="Mensagem"
@@ -97,6 +108,18 @@ const Contato = () => {
               onChange={(e) => setDadas({ ...dadas, mensagem: e.target.value })}
             ></textarea>
           </div>
+          <div className={style.div_checkbox}>
+              <input 
+              type="checkbox" 
+              name="Reuniao_meet" 
+              id="Reuniao_meet" 
+              className={style.checkbox}
+              value= {confirmation} 
+              onClick={checkedClick} 
+              onChange={(e) => setDadas({ ...dadas, reuniao_meet: e.target.value })}/>
+              <label className={style.label_checkbox} for="Reuniao_meet">Quero uma reunião pelo meet!</label>
+          </div>
+
           <input
             type="hidden"
             name="_next"
@@ -104,6 +127,9 @@ const Contato = () => {
           />
           <input type="hidden" name="_captcha" value="false"></input>
           <input type="hidden" name="_template" value="table"></input>
+
+          <input type="hidden" name="_cc" value="tdeformulario@gmail.com"></input> 
+          
           <button type="submit" className={style.btn}>
             Enviar
           </button>

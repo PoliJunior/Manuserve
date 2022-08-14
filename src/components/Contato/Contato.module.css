@@ -1,7 +1,9 @@
 .contato{
     margin: 60px auto;
-    text-align: center;
     max-width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .input{
@@ -29,6 +31,7 @@
 
 .btn{
     width: 100px;
+    margin: 20px 0;
     padding: 12px 0;
     color: #ffffff;
     background-color: #021E42;
@@ -37,4 +40,22 @@
     cursor: pointer;
 }
 
+.div_checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+}
 
+.checkbox{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.label_checkbox{
+    padding: 0 10px;
+    margin: 20px 0;
+    font-size: 19px;
+    cursor: pointer;
+}
