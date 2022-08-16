@@ -18,16 +18,20 @@ nav ul{
     display: flex;
     list-style-type: none;
 }
+
 nav li{
-    padding-left: 15px;
+    padding-left: 30px;
     margin-top: 30px;
 }
+
 nav li a{
     text-decoration: none;
     color:#0C2A9F;
     font-weight: bold;
     font-size: 1.1em;
+    transition: all .3s ease;
 }
+
 nav li a:hover{
     color: #083aff;
 }
@@ -39,11 +43,13 @@ nav li a:hover{
     cursor: pointer;
     transition: .3s;
 }
+
 .btn-mobile:hover{
     transform: scale(1.1);
     color:#0C2A9F;
     opacity: 80%;
 }
+
 .logo-navbar{
     display: none;
 }
