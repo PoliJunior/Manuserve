@@ -5,14 +5,6 @@ import backgroundContato from "../../images/banner-produtos.png";
 import ReactInputMask from "react-input-mask";
 
 const Contato = () => {
-  const [checked,setChecked] = useState(true)
-
-  const confirmation = checked ? '' : 'confirmada';
-
-  function checkedClick(){
-    setChecked(!checked)
-  }
-
   const [dadas, setDadas] = useState({
     tipoContato: "",
     nome: "",
@@ -20,7 +12,7 @@ const Contato = () => {
     telefone: "",
     estado: "",
     mensagem: "",
-    reuniao_meet: "confirmada",
+    reuniao_meet: "Confirmada",
   });
 
   return (
@@ -114,8 +106,7 @@ const Contato = () => {
               name="Reuniao_meet" 
               id="Reuniao_meet" 
               className={style.checkbox}
-              value= {confirmation} 
-              onClick={checkedClick} 
+              value= {dadas.reuniao_meet}
               onChange={(e) => setDadas({ ...dadas, reuniao_meet: e.target.value })}/>
               <label className={style.label_checkbox} for="Reuniao_meet">Quero uma reunião pelo meet!</label>
           </div>

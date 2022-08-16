@@ -1,5 +1,5 @@
 import React from "react";
-import "./CarroselVideos.css";
+import "./CarrosselVideos.css";
 import leftArrow from "../../images/arrow-left.svg";
 import rightArrow from "../../images/arrow-right.svg";
 

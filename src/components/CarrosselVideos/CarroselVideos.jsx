@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './CarroselVideos.css'
+import './CarrosselVideos.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from '../../data/CarrosselData.js'
 

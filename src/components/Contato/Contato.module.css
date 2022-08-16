@@ -1,8 +1,6 @@
 .contato{
     margin: 60px auto;
     max-width: 600px;
-    display: flex;
-    justify-content: center;
     text-align: center;
 }
 
@@ -45,6 +43,7 @@
     align-items: center;
     justify-content: center;
     height: 27px;
+
 }
 
 .checkbox{
