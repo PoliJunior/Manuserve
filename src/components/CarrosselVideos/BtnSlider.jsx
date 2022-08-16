@@ -1,7 +1,5 @@
 import React from "react";
 import "./CarrosselVideos.css";
-import leftArrow from "../../images/arrow-left.svg";
-import rightArrow from "../../images/arrow-right.svg";
 
 export default function BtnSlider({ direction, moveSlide }) {
   //console.log(direction, moveSlide);
