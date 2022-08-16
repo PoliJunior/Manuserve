@@ -53,8 +53,16 @@ export default function Slider() {
         setSlideIndex(index);
         videos[index-1].load();
         videos[index-1].play();
-        videos[index].pause();
-        videos[index+1].pause();
+        if(index === 1){
+            videos[index].pause();
+            videos[index+1].pause();
+        } else if (index === 2) {
+            videos[index].pause();
+            videos[index-2].pause();
+        } else {
+            videos[index-3].pause();
+            videos[index-2].pause();
+        }
     }
 
     const video = () => {
