@@ -2,7 +2,7 @@ import React from "react";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
 import backgroundSobre from "../../images/banner-produtos.png";
 import style from "./Sobre.module.css";
-import CarroselVideos from "../CarrosselVideos/CarroselVideos";
+import CarrosselVideos from "../CarrosselVideos/CarrosselVideos";
 
 const Sobre = () => {
   return (
@@ -22,7 +22,7 @@ const Sobre = () => {
           relações.
         </p>
         <br />
-        <CarroselVideos />
+        <CarrosselVideos />
       </div>
     </div>
   );

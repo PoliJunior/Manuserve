@@ -1,12 +1,23 @@
-import React, {useState} from 'react'
-import './CarroselVideos.css'
+import React, {useEffect, useState} from 'react'
+import './CarrosselVideos.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from '../../data/CarrosselData.js'
 
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
-    const videos = document.querySelectorAll("[data-carousel-video]")
+
+    const [videos, setVideos] = useState([])
+
+    useEffect(() => {
+        const getVideos = () => {
+            const videosInst = document.querySelectorAll("[data-carousel-video]")
+            setVideos(videosInst)
+            videosInst[1].pause()
+            videosInst[2].pause()
+        }
+        getVideos();
+    }, [])
 
     const nextSlide = () => {
         if(slideIndex !== dataSlider.length){
@@ -40,6 +51,10 @@ export default function Slider() {
 
     const moveDot = index => {
         setSlideIndex(index)
+        videos[index-1].load()
+        videos[index-1].play()
+        videos[index].pause()
+        videos[index+1].pause()
     }
 
     const video = () => {
@@ -63,7 +78,7 @@ export default function Slider() {
                         data-carousel-video
                         src={`${obj.video}`}
                         alt="video institucional"
-                        
+                        autoPlay
                         controls
                         muted
                         />
