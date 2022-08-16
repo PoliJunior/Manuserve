@@ -4,6 +4,9 @@ import backgroundServico from "../../images/banner-produtos.png";
 import style from "./Servicos.module.css";
 
 const Servicos = () => {
+
+
+
   return (
     <div id="servicos">
       <ChamadaParalax img={backgroundServico} title="Serviços" />
@@ -14,7 +17,7 @@ const Servicos = () => {
           fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis
           laoreet vel sit amet turpis.
         </h3>
-        <button className={style.btn}>Entrar em contato</button>
+        <button className={style.btn}><a href="#contato" className={style.a}>Entrar em contato</a></button>
       </div>
     </div>
   );
