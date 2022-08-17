@@ -65,14 +65,14 @@ export default function Slider() {
         }
     }
 
-    const video = () => {
+    const nextVideo = () => {
         videos.forEach(video => {
             video.addEventListener('ended', () => {
                 nextSlide();
-            })
-        })
+            });
+        });
     }
-    video();
+    nextVideo();
 
     return (
         <div className="container-slider">
