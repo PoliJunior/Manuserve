@@ -17,10 +17,17 @@ const Footer = () => {
   return (
     <section className={styles.container}>
       <div className={styles.contato}>
-        <h2>Contato</h2>
-        <p>(99)9 9999-9999</p>
-        <p>(99)9 9999-9999</p>
-        <p>teste@gmail.com</p>
+        <div id="contact_info">
+          <h2>Contato</h2>
+          <p>(99)9 9999-9999</p>
+          <p>(99)9 9999-9999</p>
+          <p>teste@gmail.com</p>
+        </div>
+        <div className={styles.vl}></div>
+        <div id={styles.social}>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+        </div>
       </div>
       <div className={styles.logo}>
         <img src={logoManuserve} alt="Logo manuserve" />
