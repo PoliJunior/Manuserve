@@ -14,7 +14,7 @@ const InfoSection = () => {
     <div className={styles.container}>
       <div data-aos="fade-up" className={styles.info}>
         <div className={styles.description}>
-          <h1>ManuServe</h1>
+          <h1>ManuServ</h1>
           <p>
             Estrutura enxuta, com técnicos formados e treinados na matriz da
             fábrica em SP, uniformizados e munidos de instrumentos, ferramentas
