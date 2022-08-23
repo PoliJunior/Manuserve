@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
 import style from "./Contato.module.css";
-import backgroundContato from "../../images/banner-produtos.png";
+import backgroundContato from "../../images/banner-contato.jpg";
 import ReactInputMask from "react-input-mask";
 
 const Contato = () => {

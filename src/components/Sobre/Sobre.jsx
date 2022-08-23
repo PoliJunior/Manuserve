@@ -1,6 +1,6 @@
 import React from "react";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
-import backgroundSobre from "../../images/banner-produtos.png";
+import backgroundSobre from "../../images/banner-sobre.jpg";
 import style from "./Sobre.module.css";
 import CarrosselVideos from "../CarrosselVideos/CarrosselVideos";
 

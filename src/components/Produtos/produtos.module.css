@@ -16,7 +16,10 @@
 }
 
 .img_box {
-  width: 100%;
+  width:100%;
+  height:400px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .info_box {

@@ -1,6 +1,6 @@
 import React from "react";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
-import backgroundServico from "../../images/banner-produtos.png";
+import backgroundServico from "../../images/banner-servicos.jpg";
 import style from "./Servicos.module.css";
 
 const Servicos = () => {

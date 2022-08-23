@@ -3,7 +3,7 @@ import styles from "./infoSection.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ChamadaParalax from "../ChamadaParalax/ChamadaParalax";
-import backgroundProdutos from "../../images/banner-produtos.png";
+import backgroundProdutos from "../../images/banner-produtos.jpg";
 
 const InfoSection = () => {
   useEffect(() => {
