@@ -46,7 +46,7 @@
 .content h1 {
   color: #fff;
   font-size: 2em;
-  text-align: justify;
+  text-align: left;
 }
 
 @media screen and (max-width: 1000px) {

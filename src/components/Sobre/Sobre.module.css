@@ -7,6 +7,5 @@
 .content p{
     font-size:1.6rem;
     font-weight: bolder;
-    text-align: justify;
-    letter-spacing: 1.2px;
+    text-align: left;
 }
