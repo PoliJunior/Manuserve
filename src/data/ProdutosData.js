@@ -38,7 +38,7 @@ const produtos = [
   },
   {
     id:5,
-    title: "Portas automáticas de chumbo de correr",
+    title: "Portas automáticas de chumbo deslizante",
     description:
       "São portas utilizadas em ambiente radiológico, ajudam no controle da radiação.",
     image: door1,

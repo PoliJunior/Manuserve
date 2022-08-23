@@ -59,6 +59,11 @@
   color: #032340;
 }
 
+.link {
+  color: #032340;
+  margin-bottom: .4rem;
+}
+
 @media screen and (max-width: 970px) {
   .contato {
     width: 25%;

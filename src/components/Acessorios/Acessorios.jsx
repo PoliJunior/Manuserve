@@ -21,7 +21,7 @@ const Acessorios = () => {
       <div className={styles.swiper}>
         <Swiper
           spaceBetween={30}
-          autoplay={{ delay: 1500, disableOnInteraction: false }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
             640:{
               slidesPerView:2,

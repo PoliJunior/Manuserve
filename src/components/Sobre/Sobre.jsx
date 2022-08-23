@@ -15,6 +15,9 @@ const Sobre = () => {
           formados e treinados na fábrica da marca, munidos de instrumentos,
           ferramentas e materiais exclusivos, de fabricação própria, conferindo
           diagnóstico preciso, aos nossos diversos produtos e serviços.
+        </p>
+        <br />
+        <p>
           Grandiosas empresas de negócios e destaque expressivos de mercado,
           como shoppings center, aeroportos, hospitais, construtoras, hotéis e
           resorts vem depositando grande confiança na nossa marca como também na
