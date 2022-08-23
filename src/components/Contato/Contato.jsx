@@ -28,8 +28,8 @@ const Contato = () => {
         >
           <div className={style.input}>
             <select
-              name="Tipo-contato"
-              id="tipo-contato"
+              name="Tipo_contato"
+              id="tipo_contato"
               required
               value={dadas.tipoContato}
               onChange={(e) =>
@@ -39,9 +39,9 @@ const Contato = () => {
               <option value="" disabled>
                 Tipo de contato
               </option>
-              <option value="Orcamento">Orçamento</option>
+              <option value="Orçamento">Orçamento</option>
               <option value="Dúvidas">Dúvidas</option>
-              <option value="Manutencao">Manutenção</option>
+              <option value="Manutenção">Manutenção</option>
               <option value="Outros">Outros</option>
             </select>
           </div>

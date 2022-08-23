@@ -12,10 +12,9 @@ const Servicos = () => {
       <ChamadaParalax img={backgroundServico} title="Serviços" />
       <div className={style.content} >
         <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-          ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi
-          fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis
-          laoreet vel sit amet turpis.
+        Precisa de instalação, manutenção, peças, contratos, consultoria, melhorias e assistência
+        permanente em portas automáticas sociais, sem improvisos e ou arranjos e ainda com
+        segurança e qualidade, é fácil, contrate o capital humano especializado da manuserv.
         </h3>
         <button className={style.btn}><a href="#contato" className={style.a}>Entrar em contato</a></button>
       </div>
