@@ -14,7 +14,7 @@ const Acessorios = () => {
     <section className={styles.container}>
       <div className={styles.chamada}>
         <div className={styles.chamada_barra}></div>
-        <h1>Acessorios</h1>
+        <h1>Acessórios</h1>
         <div className={styles.chamada_barra}></div>
       </div>
 

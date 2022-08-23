@@ -25,6 +25,8 @@
 
 .description p{
     font-size: 1.6rem;
+    text-align: justify;
+    letter-spacing: 1.2px;
 }
 
 

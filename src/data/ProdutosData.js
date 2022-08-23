@@ -3,51 +3,51 @@ import door1 from "../images/door1.png";
 const produtos = [
   {
     id:0,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas curvas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "Portas especiais com diferentes raios de curvatura, imprime modernidade e imponência.",
     image: door1,
   },
   {
     id:1,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas centrais de correr",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "Nosso produto de entrada, são populares e encaixam na maioria das necessidades.",
     image: door1,
   },
   {
     id:2,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas laterais de correr",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "Nosso produto mais singelo, permite acesso aos ambientes com abertura lateral a direita ou a esquerda.",
     image: door1,
   },
   {
     id:3,
-    title: "Lorem Ipsum",
+    title: "Portas herméticas automáticas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "São utilizadas em ambientes controlados, super limpos, com alto nível de exigências sanitárias.",
     image: door1,
   },
   {
     id:4,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas antipânico",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "Desenvolvidas para rotas de fuga.",
     image: door1,
   },
   {
     id:5,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas de chumbo de correr",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "São portas utilizadas em ambiente radiológico, ajudam no controle da radiação.",
     image: door1,
   },
   {
     id:6,
-    title: "Lorem Ipsum",
+    title: "Portas automáticas telescópicas de correr",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+      "Ideais para acessos com limitações de espaços porque aumentam a amplitude da passagem.",
     image: door1,
   },
 ];

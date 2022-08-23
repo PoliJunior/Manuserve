@@ -4,51 +4,51 @@ import acessorio1 from '../images/acessorio1.png'
 const acessorios = [
     {
       id:0,
-      title: "Lorem Ipsum",
+      title: "Controle remoto",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Permite controlar remotamente as funções da porta.",
       image: acessorio,
     },
     {
       id:1,
-      title: "Lorem Ipsum",
+      title: "Openlinx",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Permite controle total do funcionamento da porta, com ele é possível controlar as funções, a programação, a manutenção e o agendamento operacional, em ambiente Windows.",
       image: acessorio1,
     },
     {
       id:2,
-      title: "Lorem Ipsum",
+      title: "Sensor DDS B híbrido",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Responsável pela abertura e fechamento da porta de forma supersegura.",
       image: acessorio,
     },
     {
       id:3,
-      title: "Lorem Ipsum",
+      title: "Seletor de função digital",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Permite selecionar as diversas funções operacionais da porta e ainda conta com as funções de autoajuste e autodiagnóstico integradas.",
       image: acessorio1,
     },
     {
       id:4,
-      title: "Lorem Ipsum",
+      title: "Sensor fotocélula",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Ajuda na segurança do fechamento das portas automáticas.",
       image: acessorio,
     },
     {
       id:5,
-      title: "Lorem Ipsum",
+      title: "Sensor radar",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Permite a abertura automática da porta por meio de aproximação.",
       image: acessorio1,
     },
     {
       id:6,
-      title: "Lorem Ipsum",
+      title: "Trinco eletromagnético",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu ultrices quam. Sed id vestibulum risus, quis tincidunt justo. Morbi fringilla tellus eget ultrices luctus. Donec at quam eu lorem sagittis laoreet vel sit amet turpis.",
+        "Trava eletromecanicamente a porta na posição fechada não permitindo sua abertura.",
       image: acessorio,
     },
   ];
