@@ -46,6 +46,12 @@
   }
 }
 
+@media screen and (max-height: 800px){
+  .container-slider{
+    height: 60vh;
+  }
+}
+
 .slide {
   width: 100%;
   height: 100%;
