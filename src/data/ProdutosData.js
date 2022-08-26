@@ -40,6 +40,7 @@ const produtos = [
     description:
       "Desenvolvidas para rotas de fuga.",
     image: door1,
+    image2: lateral,
   },
   {
     id:5,
