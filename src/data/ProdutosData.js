@@ -1,9 +1,12 @@
-import door1 from "../images/door1.png";
 import curva from "../images/porta-curva.jpg";
 import central from "../images/porta-central-correr.jpg";
 import lateral from "../images/porta-lateral-correr.jpg";
 import hermetica from "../images/porta-hermetica.jpg";
 import telescopica from "../images/porta-telescopica-correr.jpg";
+import chumbo from "../images/porta-chumbo.jpg";
+import antipanico_aberta from "../images/porta-automatica-aberta.jpg";
+import antipanico_fechada from "../images/porta-automatica-fechada.jpg";
+
 
 const produtos = [
   {
@@ -39,15 +42,15 @@ const produtos = [
     title: "Portas automáticas antipânico",
     description:
       "Desenvolvidas para rotas de fuga.",
-    image: door1,
-    image2: lateral,
+    image: antipanico_aberta,
+    image2: antipanico_fechada,
   },
   {
     id:5,
     title: "Portas automáticas de chumbo deslizante",
     description:
       "São portas utilizadas em ambiente radiológico, ajudam no controle da radiação.",
-    image: door1,
+    image: chumbo,
   },
   {
     id:6,
