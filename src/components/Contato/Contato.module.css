@@ -70,3 +70,7 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.div_reuniaomeet{
+    display: none;
+}

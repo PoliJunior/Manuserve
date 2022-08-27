@@ -5,6 +5,14 @@ import backgroundContato from "../../images/banner-contato.jpg";
 import ReactInputMask from "react-input-mask";
 
 const Contato = () => {
+  const [checked, setChecked] = useState(false)
+
+  function clickCheckbox() {
+    setChecked(!checked)
+  }
+
+  const check = checked ? "Confirmada" : "Não foi confirmada";
+
   const [dadas, setDadas] = useState({
     tipoContato: "",
     nome: "",
@@ -12,7 +20,7 @@ const Contato = () => {
     telefone: "",
     estado: "",
     mensagem: "",
-    reuniao_meet: "Confirmada",
+    reuniao_meet: check
   });
 
   return (
@@ -103,12 +111,22 @@ const Contato = () => {
           <div className={style.div_checkbox}>
               <input 
               type="checkbox" 
-              name="Reuniao_meet" 
-              id="Reuniao_meet" 
+              name="Checkbox_meet" 
+              id="Checkbox_meet" 
               className={style.checkbox}
-              value= {dadas.reuniao_meet}
-              onChange={(e) => setDadas({ ...dadas, reuniao_meet: e.target.value })}/>
-              <label className={style.label_checkbox} for="Reuniao_meet">Quero uma reunião pelo meet!</label>
+              onClick={clickCheckbox}
+              />
+              <label className={style.label_checkbox} for="Checkbox_meet">Quero uma reunião pelo meet!</label>
+          </div>
+
+          <div className={style.div_reuniaomeet}>
+            <input 
+            type="text"
+            name="Reuniao_meet" 
+            id="Reuniao_meet" 
+            value={check}
+            onChange={(e) => setDadas({ ...dadas, reuniao_meet: e.target.value })}
+            />
           </div>
 
           <input
