@@ -29,11 +29,11 @@ nav li a{
     color:#0C2A9F;
     font-weight: bold;
     font-size: 1.1em;
-    transition: all .3s ease;
+    transition: all .4s ease-in-out;
 }
 
 nav li a:hover{
-    color: #083aff;
+    color: #0839ff;
 }
 
 .btn-mobile{
