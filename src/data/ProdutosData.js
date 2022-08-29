@@ -4,8 +4,8 @@ import lateral from "../images/porta-lateral-correr.jpg";
 import hermetica from "../images/porta-hermetica.jpg";
 import telescopica from "../images/porta-telescopica-correr.jpg";
 import chumbo from "../images/porta-chumbo.jpg";
-import antipanico_aberta from "../images/porta-automatica-aberta.jpg";
-import antipanico_fechada from "../images/porta-automatica-fechada.jpg";
+import antipanico_aberta from "../images/porta-antipanico-aberta.jpg";
+import antipanico_fechada from "../images/porta-antipanico-fechada.jpg";
 
 
 const produtos = [
