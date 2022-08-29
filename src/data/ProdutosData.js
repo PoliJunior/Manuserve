@@ -42,8 +42,8 @@ const produtos = [
     title: "Portas automáticas antipânico",
     description:
       "Desenvolvidas para rotas de fuga.",
-    image: antipanico_aberta,
-    image2: antipanico_fechada,
+    image: antipanico_fechada,
+    image2: antipanico_aberta,
   },
   {
     id:5,
