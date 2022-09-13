@@ -56,7 +56,7 @@ const produtos = [
     id:6,
     title: "Portas automáticas telescópicas de correr",
     description:
-      "Ideais para acessos com limitações de espaços porque aumentam a amplitude da passagem.",
+      "Ideais para acessos com limitações de espaços porque aumentam a abertura da passagem.",
     image: telescopica,
   },
 ];

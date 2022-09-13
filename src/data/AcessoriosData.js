@@ -25,35 +25,35 @@ const acessorios = [
       id:2,
       title: "Sensor DDS B híbrido",
       description:
-        "Responsável pela abertura e fechamento da porta de forma supersegura.",
+        "Responsável pela abertura e fechamento da porta automática com segurança.",
       image: radar,
     },
     {
       id:3,
       title: "Seletor de função digital",
       description:
-        "Permite selecionar as diversas funções operacionais da porta e ainda conta com as funções de autoajuste e autodiagnóstico integradas.",
+        "Permite selecionar as diversas funções da porta e ainda conta com as funções de autoajuste e autodiagnóstico.",
       image: seletor_func,
     },
     {
       id:4,
       title: "Sensor fotocélula",
       description:
-        "Ajuda na segurança do fechamento das portas automáticas.",
+        "Reforça a segurança durante o fechamento das portas automáticas.",
       image: sensor_foto,
     },
     {
       id:5,
       title: "Sensor radar",
       description:
-        "Permite a abertura automática da porta por meio de aproximação.",
+        "Permite a abertura automática da porta.",
       image: sensor_radar,
     },
     {
       id:6,
-      title: "Trinco eletromagnético",
+      title: "Trinco eletromecânico",
       description:
-        "Trava eletromecanicamente a porta na posição fechada não permitindo sua abertura.",
+        "Trava a porta na posição fechada.",
       image: trinco,
     },
   ];

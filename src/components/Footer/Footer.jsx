@@ -19,8 +19,8 @@ const Footer = () => {
       <div className={styles.contato}>
         <div id="contact_info">
           <h2>Contato</h2>
-          <p>(99)9 9999-9999</p>
-          <p>(99)9 9999-9999</p>
+          <p>(81)9 9445-9834</p>
+          <p>(81)9 3048-0206</p>
           <p>teste@gmail.com</p>
         </div>
         <div className={styles.vl}></div>

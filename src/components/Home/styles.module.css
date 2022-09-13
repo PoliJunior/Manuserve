@@ -49,12 +49,6 @@
   text-align: left;
 }
 
-@media screen and (max-width: 1000px) {
-  .filter {
-    height: calc(100% - 25px);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .content h1 {
     font-size: 1.6rem;
