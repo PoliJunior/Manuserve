@@ -64,8 +64,8 @@
   margin-bottom: .4rem;
 }
 
-i {
-  font-size: 1.2rem;
+.container i {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 970px) {
