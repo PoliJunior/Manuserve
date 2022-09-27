@@ -24,10 +24,12 @@ const Footer = () => {
           <p>teste@gmail.com</p>
         </div>
         <div className={styles.vl}></div>
+      {/*
         <div id={styles.social}>
           <a href="https://www.facebook.com" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-facebook"> /teste_face</i></a>
           <a href="https://www.instagram.com" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-instagram"> @teste_insta</i></a>
         </div>
+      */}
       </div>
       <div className={styles.logo}>
         <img src={logoManuserve} alt="Logo manuserve" />
