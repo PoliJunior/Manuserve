@@ -1,13 +1,12 @@
 .banner{
     position: relative;
     width: 100%;
-    height: 550px;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     object-fit: fill;
     z-index: -1;
 }
@@ -45,5 +44,11 @@
         width: 100%;
         text-align: center;
         font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .banner{
+        height: 45vh;
     }
 }
