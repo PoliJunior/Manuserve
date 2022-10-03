@@ -16,8 +16,8 @@ const Home = () => {
             {(props) => (
               <animated.div style={props}>
                 <h1>
-                  Manuserv - Comércio, manutenção e serviços de portas automáticas. Sofisticação aliada
-                  à tecnologia de alta performance e eficiência energética.
+                  Manuserv comercio, manutenção e serviços em portas automáticas. Sofisticação e durabilidade aliada 
+                  à tecnologia de alta performance e eficiência energética
                 </h1>
               </animated.div>
             )}
