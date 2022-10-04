@@ -24,7 +24,7 @@ const InfoSection = () => {
             conferindo diagnósticos precisos. Grandes   empresas de negócios e destaque expressivos do mercado, como shoppings 
             center, aeroportos, hospitais, construtoras, hotéis, resorts, condomínios, supermercados, vem depositando grande 
             confiança na nossa marca e assistência técnica. Escolher <strong>manuserv é marcar um encontro em algum lugar no futuro, é a 
-            escolha certa que abri infinitas vezes a inteligente porta que nos aproxima.</strong>
+            escolha certa que abre infinitas vezes a inteligente porta que nos aproxima.</strong>
             </p>
         </div>
         <div data-aos="flip-left" className={styles.info_img}></div>
