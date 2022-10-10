@@ -28,7 +28,7 @@ const Contato = () => {
       <ChamadaParalax img={backgroundContato} title="Contato" />
       <div className={style.contato}>
         <form
-          action="https://formsubmit.co/rotilio.bernardo@manuservnordeste.com"
+          action="https://formsubmit.co/contato@manuservnordeste.com"
           method="POST"
         >
           <div className={style.input}>
