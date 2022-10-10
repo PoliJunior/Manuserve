@@ -1,5 +1,6 @@
 {
-  "name": "manuserve",
+  "name": "manuserv",
+  "homepage": "https://manuservnordest.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
