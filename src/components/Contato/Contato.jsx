@@ -28,10 +28,7 @@ const Contato = () => {
       <ChamadaParalax img={backgroundContato} title="Contato" />
       <div className={style.contato}>
         <form
-          // onSubmit={handleSubmit}
-          // https://formsubmit.co/henriqueteste802011@gmail.com
-          // https://formsubmit.co/el/liruca
-          action="https://formsubmit.co/henriqueteste802011@gmail.com"
+          action="https://formsubmit.co/tdeformulario@gmail.com"
           method="POST"
         >
           <div className={style.input}>
@@ -136,8 +133,6 @@ const Contato = () => {
           />
           <input type="hidden" name="_captcha" value="false"></input>
           <input type="hidden" name="_template" value="table"></input>
-
-          <input type="hidden" name="_cc" value="tdeformulario@gmail.com"></input> 
           
           <button type="submit" className={style.btn}>
             Enviar
