@@ -51,3 +51,31 @@
         text-align: justify;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .description p {
+        font-size: 21pt;
+        padding: 0 30px;
+    }
+    .description h1 {
+        margin-left: 2rem;
+    }
+  }
+@media screen and (max-width: 800px) {
+  .description p {
+    font-size: 16pt;
+    padding: 0 20px;
+  }
+  .description h1 {
+    margin-left: 1.2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .description p {
+    font-size: 15pt;
+    padding: 0 15px;
+  }
+  .description h1 {
+    margin-left: 1rem;
+  }
+}
