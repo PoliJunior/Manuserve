@@ -21,10 +21,10 @@ const Footer = () => {
           <h2>Contato</h2>
           <p>(81)9 9445-9834</p>
           <p>(81)9 3048-0206</p>
-          <p>teste@gmail.com</p>
+          <p>contato@manuservnordeste.com</p>
         </div>
-        <div className={styles.vl}></div>
       {/*
+        <div className={styles.vl}></div>
         <div id={styles.social}>
           <a href="https://www.facebook.com" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-facebook"> /teste_face</i></a>
           <a href="https://www.instagram.com" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-instagram"> @teste_insta</i></a>
