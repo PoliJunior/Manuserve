@@ -129,7 +129,7 @@ const Contato = () => {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:3000/home"
+            value="http://manuservnordeste.com/"
           />
           <input type="hidden" name="_captcha" value="false"></input>
           <input type="hidden" name="_template" value="table"></input>
