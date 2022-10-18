@@ -10,8 +10,8 @@ const Footer = () => {
   });
 
   const position = {
-    lat: -8.059528,
-    lng: -34.903736,
+    lat: -8.04898613401052, 
+    lng: -34.9284693451475,
   };
 
   return (
