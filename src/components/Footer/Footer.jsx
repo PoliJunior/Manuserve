@@ -16,7 +16,7 @@ const Footer = () => {
         <div className={styles.vl}></div>
         <div id={styles.social}>
           <a href="https://contate.me/manuserv" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-whatsapp"> WhatsApp</i></a>
-          <a href="https://www.instagram.com/manuservnordeste" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-instagram"> @manuservnordest</i></a>
+          <a href="https://www.instagram.com/manuservnordeste" className={styles.link} target="blank" rel="external"><i class="fa-brands fa-square-instagram"> @manuservnordeste</i></a>
         </div>
       </div>
       <div className={styles.logo}>
