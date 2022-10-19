@@ -1,18 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import logoManuserve from "../../images/logo.png";
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 const Footer = () => {
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: "AIzaSyDpi11NxjaRnmU9VqB6AAp6_ldKi_Fik9Y",
-  });
-
-  const position = {
-    lat: -8.04898613401052, 
-    lng: -34.9284693451475,
-  };
 
   return (
     <section className={styles.container}>
@@ -34,18 +24,9 @@ const Footer = () => {
       </div>
       <div className={styles.mapWrapper}>
         <div className={styles.map}>
-          {isLoaded ? (
-            <GoogleMap
-              mapContainerStyle={{ width: "100%", height: "100%" }}
-              center={position}
-              zoom={15}
-            >
-              <Marker position={position} />
-            </GoogleMap>
-          ) : (
-            <></>
-          )}
+            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5124076729453!2d-34.93060438461543!3d-8.049097682629093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f27dde41255%3A0x206e518b562ecc3f!2sMANUSA%20DO%20NORDESTE%20-%20MANUSERV!5e0!3m2!1spt-BR!2sbr!4v1666135316901!5m2!1spt-BR!2sbr" className={styles.map} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        
       </div>
     </section>
   );
