@@ -10,7 +10,7 @@ const Footer = () => {
         <div id="contact_info">
           <h2>Contato</h2>
           <p>(81)9 9445-9834</p>
-          <p>(81)9 3048-0206</p>
+          <p>(81) 3048-0206</p>
           <p>contato@manuservnordeste.com</p>
         </div>
         <div className={styles.vl}></div>
