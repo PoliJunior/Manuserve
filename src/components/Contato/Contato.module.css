@@ -74,3 +74,15 @@
 .div_reuniaomeet{
     display: none;
 }
+
+@media screen and (max-width: 325px){
+    .input input, .input select, .input textarea{
+        width: 280px;
+    }
+    .div_checkbox{
+        width: 280px;
+    }
+    .label_checkbox{
+        font-size: 16px;
+    }
+}
